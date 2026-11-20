@@ -5,7 +5,7 @@ layout: home
 AI Engineer with experience in Machine Learning, Computer Vision, and Reinforcement Learning.
 Strong background in mathematics, problem-solving, and computational thinking.
 
-[Email](mailto:longpml3421@gmail.com) \| [LinkedIn](https://linkedin.com/in/longpml/) \| [GitHub](https://github.com/LongPML) \| [CV (PDF)](cv.pdf)
+[Email](mailto:longpml3421@gmail.com) \| [LinkedIn](https://linkedin.com/in/longpml/) \| [GitHub](https://github.com/LongPML) \| [Résumé (PDF)](Minh-Long_Pham_Resume.pdf)
 
 ## Highlights
 

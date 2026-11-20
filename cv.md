@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CV
+title: Résumé
 ---
 
-[Download PDF](cv.pdf)
+[Download PDF](Minh-Long_Pham_Resume.pdf)
 
 {% include cv.md %}

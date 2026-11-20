@@ -22,7 +22,7 @@ jobs:
       - name: Build CV PDF
         run: >
           docker run --rm -v "$PWD:/data" -u "$(id -u):$(id -g)" pandoc/latex:3.14
-          _includes/cv.md -o cv.pdf
+          _includes/cv.md -o Minh-Long_Pham_Resume.pdf
           -V geometry:margin=2cm -V fontsize=11pt -V colorlinks -V pagestyle=empty
       - uses: actions/configure-pages@v6
       - uses: actions/jekyll-build-pages@v1
