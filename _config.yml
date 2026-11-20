@@ -14,7 +14,6 @@ minima:
   skin: solarized-light
   hide_site_feed_link: true
   nav_pages:
-    - cv.md
     - publications.md
     - experience.md
     - awards.md
@@ -28,3 +27,5 @@ minima:
 
 exclude:
   - README.md
+  - resume.md
+  - "Minh-Long PHAM - CV.pdf"

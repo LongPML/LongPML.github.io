@@ -7,6 +7,11 @@ Strong background in mathematics, problem-solving, and computational thinking.
 
 [Email](mailto:longpml3421@gmail.com) \| [LinkedIn](https://linkedin.com/in/longpml/) \| [GitHub](https://github.com/LongPML) \| [Résumé (PDF)](Minh-Long_Pham_Resume.pdf)
 
+## Education
+
+- **PhD in Computer Science and Design**, Singapore University of Technology and Design (SUTD), 2026-01 to present. SUTD PhD Fellowship, GPA 4.95/5.0.
+- **B.Sc. in Computer Science**, University of Information Technology (UIT), VNU-HCMC, 2019-08 to 2023-08. GPA 8.35/10.
+
 ## Highlights
 
 ### Conversational AI Digital Human (2024)
