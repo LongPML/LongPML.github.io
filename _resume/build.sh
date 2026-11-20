@@ -1,8 +1,18 @@
 #!/bin/sh
 # Builds Minh-Long_Pham_Resume.pdf from resume.md. Runs inside the pandoc/latex image (see README).
 set -e
-tlmgr install tex-gyre >/dev/null
+# Try several mirrors because a mirror can be mid-sync and fail signature checks.
+ok=
+for repo in \
+  https://mirror.ctan.org/systems/texlive/tlnet \
+  https://mirrors.mit.edu/CTAN/systems/texlive/tlnet \
+  https://ftp.math.utah.edu/pub/ctan/tex-archive/systems/texlive/tlnet; do
+  if tlmgr --repository "$repo" install tex-gyre fira fontawesome5 xkeyval fontaxes mweights >/dev/null 2>&1; then
+    ok=1; break
+  fi
+done
+[ -n "$ok" ] || { echo "tlmgr install failed on all mirrors" >&2; exit 1; }
 pandoc resume.md -o Minh-Long_Pham_Resume.pdf \
   -H _resume/style.tex -L _resume/layout.lua \
-  -V papersize=letter -V geometry:margin=0.6in -V fontsize=11pt -V pagestyle=empty \
-  -V colorlinks -V urlcolor=blue -V linkcolor=blue
+  -V papersize=letter -V geometry:margin=0.5in -V fontsize=10pt -V pagestyle=empty \
+  -V colorlinks -V urlcolor=linkblue -V linkcolor=linkblue
