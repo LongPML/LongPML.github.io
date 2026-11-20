@@ -1,18 +1,30 @@
 title: Minh-Long PHAM
 description: AI Engineer in Machine Learning, Computer Vision, Reinforcement Learning
-theme: minima
+remote_theme: jekyll/minima@4de3223
 baseurl: ""
 
-author: Minh-Long PHAM
-email: longpml3421@gmail.com
-github_username: LongPML
-linkedin_username: longpml
+plugins:
+  - jekyll-remote-theme
 
-header_pages:
-  - cv.md
-  - publications.md
-  - experience.md
-  - awards.md
+author:
+  name: Minh-Long PHAM
+  email: longpml3421@gmail.com
+
+minima:
+  skin: solarized-light
+  hide_site_feed_link: true
+  nav_pages:
+    - cv.md
+    - publications.md
+    - experience.md
+    - awards.md
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/LongPML"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://linkedin.com/in/longpml/"
 
 exclude:
   - README.md
