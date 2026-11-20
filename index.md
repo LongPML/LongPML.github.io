@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 AI Engineer with experience in Machine Learning, Computer Vision, and Reinforcement Learning.

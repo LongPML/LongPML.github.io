@@ -1,14 +1,13 @@
 # longpml.github.io
 
-Personal website, built by GitHub Pages (Jekyll, `leap-day` theme) and deployed by GitHub Actions.
+Personal website, built by GitHub Pages (Jekyll, `minima` theme) and deployed by GitHub Actions.
 
 - Home: `index.md`
 - Experience: `experience.md`
 - Publications: `publications.md`
 - Awards and certifications: `awards.md`
 - CV: edit `_includes/cv.md`. It is shown on `cv.md` and converted to `cv.pdf` by pandoc on every push.
-- Styles: `assets/css/style.scss`
-- Page layout and navigation: `_layouts/default.html`
+- Colors: `assets/main.scss`
 - Site config and menu order: `_config.yml`
 - Use `\|` instead of `|` in text lines, otherwise kramdown renders them as a table.
 
