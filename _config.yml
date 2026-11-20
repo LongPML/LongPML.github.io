@@ -1,3 +1,17 @@
 title: Pham Minh Long
-description: AI Engineer | Machine Learning, Computer Vision, Reinforcement Learning
-theme: jekyll-theme-minimal
+description: AI Engineer in Machine Learning, Computer Vision, Reinforcement Learning
+theme: minima
+
+author: Pham Minh Long
+email: longpml3421@gmail.com
+github_username: LongPML
+linkedin_username: longpml
+
+header_pages:
+  - experience.md
+  - publications.md
+  - awards.md
+  - cv.md
+
+exclude:
+  - README.md
