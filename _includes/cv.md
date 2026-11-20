@@ -1,4 +1,4 @@
-# Pham Minh Long
+# Minh-Long PHAM
 
 AI Engineer \| longpml3421@gmail.com \| [linkedin.com/in/longpml](https://linkedin.com/in/longpml/) \| [longpml.github.io](https://longpml.github.io)
 
