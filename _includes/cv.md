@@ -1,6 +1,6 @@
 # Pham Minh Long
 
-AI Engineer | longpml3421@gmail.com | [linkedin.com/in/longpml](https://linkedin.com/in/longpml/) | [longpml.github.io](https://longpml.github.io)
+AI Engineer \| longpml3421@gmail.com \| [linkedin.com/in/longpml](https://linkedin.com/in/longpml/) \| [longpml.github.io](https://longpml.github.io)
 
 Experience in Machine Learning, Computer Vision, and Reinforcement Learning, with a strong background in mathematics and problem-solving.
 

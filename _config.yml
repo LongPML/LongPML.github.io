@@ -1,6 +1,7 @@
 title: Pham Minh Long
 description: AI Engineer in Machine Learning, Computer Vision, Reinforcement Learning
-theme: minima
+theme: jekyll-theme-leap-day
+baseurl: ""
 
 author: Pham Minh Long
 email: longpml3421@gmail.com
