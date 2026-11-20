@@ -9,10 +9,10 @@ github_username: LongPML
 linkedin_username: longpml
 
 header_pages:
-  - experience.md
-  - publications.md
-  - awards.md
   - cv.md
+  - publications.md
+  - experience.md
+  - awards.md
 
 exclude:
   - README.md
