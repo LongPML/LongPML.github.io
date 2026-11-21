@@ -3,7 +3,7 @@
 --   ## Section       uppercase heading with a rule below
 --   ### Entry        bold entry line (role or degree)
 --   #### Project     italic project line
---   1. item          numbered as [1], [2], ...
+--   1. item          numbered as [1], [2], ... in the Publications section
 --   [text]{.center}  text placed between the left and right parts of a line
 --   [text]{.right}   text pushed to the right margin
 
@@ -37,13 +37,15 @@ end
 
 function Pandoc(doc)
   local blocks = pandoc.List({ header(doc.meta) })
+  local section = ''
   for _, b in ipairs(doc.blocks) do
     if b.t == 'Header' and b.level == 2 then
+      section = pandoc.utils.stringify(b.content)
       blocks:insert(pandoc.Plain(wrap('\\resumesection{', b.content, '}')))
     elseif b.t == 'Header' and b.level == 3 then
       blocks:insert(pandoc.RawBlock('latex', '\\resumeentry'))
       blocks:insert(pandoc.Para(wrap('{\\bfseries ', b.content, '}')))
-    elseif b.t == 'OrderedList' then
+    elseif b.t == 'OrderedList' and section:find('Publication') then
       blocks:insert(pandoc.RawBlock('latex', '\\begin{enumerate}\\renewcommand{\\labelenumi}{[\\arabic{enumi}]}\\tightlist'))
       for _, item in ipairs(b.content) do
         blocks:insert(pandoc.RawBlock('latex', '\\item'))

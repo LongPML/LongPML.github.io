@@ -114,4 +114,5 @@ Advisor: Mr. To Nhat Huy
 
 ## References
 
-Available upon request.
+1. **Ms. Thu-Huyen Tran**, Director of Vingroup AI Engineer Training Program, VinBigData [*huyen.tt2@vinuni.edu.vn*]{.right}
+2. **Mr. To Nhat Huy**, System SW Engineer, NVIDIA [*hnto@nvidia.com*]{.right}
