@@ -111,8 +111,3 @@ Advisor: Mr. To Nhat Huy
 - [Azure AI Fundamentals](https://learn.microsoft.com/api/credentials/share/en-us/hundred/FDCC697E1C8F12E7?sharingId=2AFFB01CFBED0222), Microsoft.
 - [Introduction to Self-Driving Cars](https://coursera.org/share/094a0de250566c4e32159d131217021e), University of Toronto, Coursera.
 - [Computational Thinking for Problem Solving](https://coursera.org/share/be5f9d8208ba1fa9232b026a00e89ab0), University of Pennsylvania, Coursera.
-
-## References
-
-1. **Ms. Thu-Huyen Tran**, Director of Vingroup AI Engineer Training Program, VinBigData [*huyen.tt2@vinuni.edu.vn*]{.right}
-2. **Mr. To Nhat Huy**, System SW Engineer, NVIDIA [*hnto@nvidia.com*]{.right}

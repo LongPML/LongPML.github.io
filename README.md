@@ -11,7 +11,7 @@ Personal website, built by GitHub Pages (Jekyll, `minima` 3 remote theme, `solar
   - `## Section`, `### Role or degree` (bold), `#### Project` (italic), `1.` items print as `[1]` under Publications.
   - `[text]{.center}` and `[text]{.right}` place text in the middle and at the right margin.
   - Layout: `_resume/style.tex`, `_resume/layout.lua`. Build: `_resume/build.sh`.
-  - The PDF is public: no phone numbers.
+  - The PDF is public: no phone numbers or references.
 - Site config, skin, and menu order: `_config.yml` (`minima.skin`, `minima.nav_pages`)
 - Use `\|` instead of `|` in text lines of web pages, otherwise kramdown renders them as a table.
 
