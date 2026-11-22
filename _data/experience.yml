@@ -67,11 +67,11 @@
         - "Researched how office temperature affects work performance and how to measure thermal comfort."
         - "Developed an IoT-based method using the PMV index (ISO 7730) to keep offices near neutral comfort."
 
-    - title: Price Estimation Project
+    - title: Japanese Housing Price Estimation
       highlight: [home, resume]
       bullets:
-        - "Improved existing ML models by 12% with a custom loss function designed for a client-specific metric."
-        - "Deployed models on Azure Machine Learning with an automated pipeline."
+        - "Built an ensemble of LightGBM, XGBoost, and CatBoost with a custom loss function for the client's proprietary metric, improving the existing models by 8%."
+        - "Deployed on Azure Machine Learning with a pipeline that retrains on new data; used in production in the Japanese market."
 
 - role: AI Engineer Intern
   org: Vingroup Big Data Institute (VinBigData)
