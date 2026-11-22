@@ -121,7 +121,7 @@
         - "Tuned the model to balance accuracy, compute, and run-time."
         - "Built a real-time smartphone camera app after the competition."
 
-    - title: "Neural Architecture Search on NAS-Bench-201 (course project)"
+    - title: "Neural Architecture Search on NAS-Bench-201"
       highlight: []
       bullets:
         - "Single target: Genetic Algorithm (POPOP) to find the architecture with the highest test accuracy."
