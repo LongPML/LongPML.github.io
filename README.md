@@ -23,7 +23,7 @@ Fields:
 
 - Home: `home.md` (`permalink: /`), intro text and links.
 - Experience, Publications, Awards: `experience.md`, `publications.md`, `awards.md`. They only loop over `_data/`.
-- Résumé: `resume.txt` is a template. Jekyll renders it to `_site/resume.md`, then `_resume/build.sh` builds `_site/Minh-Long_Pham_Resume.pdf` (linked from the home page) and removes `_site/resume.md`.
+- Résumé: `resume.txt` is a template. Jekyll renders it to `_site/resume.md`, then `_resume/build.sh` builds `_site/Minh-Long_PHAM_Resume.pdf` (linked from the home page) and removes `_site/resume.md`.
   - The second front matter block (`name`, `email`, `linkedin`, `website`, `github`) builds the PDF header.
   - `## Section`, `### Role or degree` (bold), `#### Project` (italic), `1.` items print as `[1]` under Publications.
   - `[text]{.center}` and `[text]{.right}` place text in the middle and at the right margin.
@@ -41,7 +41,7 @@ docker run --rm -u "$(id -u):$(id -g)" -e HOME=/tmp -e PAGES_REPO_NWO=LongPML/Lo
   -v "$PWD:/src" -w /src --entrypoint github-pages ghcr.io/actions/jekyll-build-pages:v1.0.13 \
   build -s /src -d /src/_site
 docker run --rm -v "$PWD:/data" -w /data --entrypoint sh pandoc/latex:3.14 \
-  -c "_resume/build.sh && chown $(id -u):$(id -g) _site/Minh-Long_Pham_Resume.pdf"
+  -c "_resume/build.sh && chown $(id -u):$(id -g) _site/Minh-Long_PHAM_Resume.pdf"
 ```
 
 Preview: `python3 -m http.server -d _site`, then open http://localhost:8000.

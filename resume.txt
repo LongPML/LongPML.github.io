@@ -5,7 +5,7 @@ layout: null
 permalink: /resume.md
 ---
 ---
-name: Minh-Long Pham
+name: Minh-Long PHAM
 email: longpml3421@gmail.com
 linkedin: longpml
 website: longpml.github.io

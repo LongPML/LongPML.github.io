@@ -1,5 +1,5 @@
 #!/bin/sh
-# Builds _site/Minh-Long_Pham_Resume.pdf from _site/resume.md, which Jekyll renders from resume.txt.
+# Builds _site/Minh-Long_PHAM_Resume.pdf from _site/resume.md, which Jekyll renders from resume.txt.
 # Run after the Jekyll build, inside the pandoc/latex image (see README).
 set -e
 # Try several mirrors because a mirror can be mid-sync and fail signature checks.
@@ -13,7 +13,7 @@ for repo in \
   fi
 done
 [ -n "$ok" ] || { echo "tlmgr install failed on all mirrors" >&2; exit 1; }
-pandoc _site/resume.md -o _site/Minh-Long_Pham_Resume.pdf \
+pandoc _site/resume.md -o _site/Minh-Long_PHAM_Resume.pdf \
   -H _resume/style.tex -L _resume/layout.lua \
   -V papersize=letter -V geometry:margin=0.5in -V fontsize=10pt -V pagestyle=empty \
   -V colorlinks -V urlcolor=linkblue -V linkcolor=linkblue
