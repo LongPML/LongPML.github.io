@@ -1,0 +1,37 @@
+# highlight: [home, resume] picks where an item appears; the Awards page shows all.
+# items: sub-bullets shown everywhere. details: Awards page only.
+
+awards:
+  - text: "4th Place, Autonomy Challenge, 2026 Maritime RobotX Challenge (22 teams, 10 countries) ([Final Standings](https://robotx.org/2026/11/14/2026-maritime-robotx-challenge-final-standings/))."
+    highlight: [home, resume]
+    details:
+      - "2026-11-08 to 2026-11-14, Promontory at Marina Bay, Singapore."
+      - "Role: Computer Vision Lead, MARVL Lab, SUTD."
+  - text: "SUTD PhD Fellowship, Singapore University of Technology and Design, 2026."
+    highlight: [home, resume]
+  - text: "Kaggle Competitions Expert, highest ranking top *__0.6%__ out of 202,912* ([Minh-Long Pham](https://www.kaggle.com/hundred3421))."
+    highlight: [home, resume]
+    items:
+      - "Silver medal, NeurIPS 2024 - Predict New Medicines with BELKA (*__Top 4%__* - 69/1950)."
+      - "Bronze medal, Home Credit - Credit Risk Model Stability, 2024 (*__Top 7%__* - 240/3856)."
+      - "Bronze medal, ICR - Identifying Age-Related Conditions, 2023 (*__Top 6%__* - 355/6430), with teammates."
+  - text: "Contributor to [Graphiti](https://github.com/getzep/graphiti) on GitHub (more than 33k stars)."
+    highlight: [home, resume]
+  - text: "Honorable Mention, UIT AI Challenge: Logo Detection 2020, for the highest performance on the first run."
+    highlight: [home, resume]
+    details:
+      - "Detected and classified logos of 7 groups of university faculties and associations."
+  - text: "Honorable Mention in Mathematics, Can Tho City Provincial Excellent Students Exam 2019."
+    highlight: [home]
+
+certificates:
+  - text: "IELTS Academic: Overall band score 6.5."
+    highlight: [resume]
+  - text: "[Azure AI Fundamentals](https://learn.microsoft.com/api/credentials/share/en-us/hundred/FDCC697E1C8F12E7?sharingId=2AFFB01CFBED0222), Microsoft."
+    highlight: [home, resume]
+    details:
+      - "Microsoft Certified: Azure AI Fundamentals (AI-900)."
+  - text: "[Introduction to Self-Driving Cars](https://coursera.org/share/094a0de250566c4e32159d131217021e), University of Toronto, Coursera."
+    highlight: [home, resume]
+  - text: "[Computational Thinking for Problem Solving](https://coursera.org/share/be5f9d8208ba1fa9232b026a00e89ab0), University of Pennsylvania, Coursera."
+    highlight: [home]

@@ -1,5 +1,5 @@
 -- Pandoc filter that maps the plain markdown of resume.md to the resume layout in _resume/style.tex.
---   front matter     name, email, linkedin, website: page header (date of build added automatically)
+--   front matter     name, email, linkedin, website, github: page header
 --   ## Section       uppercase heading with a rule below
 --   ### Entry        bold entry line (role or degree)
 --   #### Project     italic project line
@@ -32,7 +32,7 @@ local function header(meta)
   end
   return pandoc.RawBlock('latex', string.format(
     '\\resumeheader{%s}{%s}{%s}{%s}{%s}',
-    get('name'), get('email'), get('linkedin'), get('website'), os.date('%d %b %Y')))
+    get('name'), get('email'), get('linkedin'), get('website'), get('github')))
 end
 
 function Pandoc(doc)
@@ -45,6 +45,9 @@ function Pandoc(doc)
     elseif b.t == 'Header' and b.level == 3 then
       blocks:insert(pandoc.RawBlock('latex', '\\resumeentry'))
       blocks:insert(pandoc.Para(wrap('{\\bfseries ', b.content, '}')))
+    elseif b.t == 'Header' and b.level == 4 then
+      blocks:insert(pandoc.RawBlock('latex', '\\resumeproject'))
+      blocks:insert(pandoc.Para(wrap('{\\itshape ', b.content, '}')))
     elseif b.t == 'OrderedList' and section:find('Publication') then
       blocks:insert(pandoc.RawBlock('latex', '\\begin{enumerate}\\renewcommand{\\labelenumi}{[\\arabic{enumi}]}\\tightlist'))
       for _, item in ipairs(b.content) do
@@ -52,9 +55,6 @@ function Pandoc(doc)
         blocks:extend(item)
       end
       blocks:insert(pandoc.RawBlock('latex', '\\end{enumerate}'))
-    elseif b.t == 'Header' and b.level == 4 then
-      blocks:insert(pandoc.RawBlock('latex', '\\resumeproject'))
-      blocks:insert(pandoc.Para(wrap('{\\itshape ', b.content, '}')))
     else
       blocks:insert(b)
     end

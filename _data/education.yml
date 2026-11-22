@@ -1,0 +1,28 @@
+# highlight: [home, resume] picks where an item appears.
+# bullets: everywhere the item appears. details: home only.
+
+- degree: PhD
+  school: Singapore University of Technology and Design (SUTD)
+  location: Singapore
+  dates: 01/2026 - Present
+  highlight: [home, resume]
+  bullets:
+    - "Major: Computer Science and Design - SUTD PhD Fellowship - GPA: 4.95/5.0."
+  details:
+    - "Advisor: Prof. Malika Meghjani - MARVL Lab."
+
+- degree: Bachelor
+  school: University of Information Technology (UIT), VNU-HCMC
+  location: Ho Chi Minh City, Vietnam
+  dates: 08/2019 - 08/2023
+  highlight: [home, resume]
+  bullets:
+    - "Major: Computer Science - GPA: 8.35/10."
+
+- degree: High School
+  school: Ly Tu Trong High School for the Gifted, Can Tho City
+  location: Can Tho, Vietnam
+  dates: 08/2016 - 06/2019
+  highlight: [home, resume]
+  bullets:
+    - "Specialization in Mathematics."

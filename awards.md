@@ -3,15 +3,23 @@ layout: page
 title: Awards & Certifications
 ---
 
-## Honours and Awards
+<!-- Content lives in _data/awards.yml. -->
 
-- UIT AI Challenge 2020, Logo Detection: Honorable mention
-  - Detected and classified logos of different faculties; highest accuracy on the first run.
-- Can Tho City Excellent Students in Mathematics 2019: Honorable mention
-- Kaggle: 1 silver medal, 1 bronze medal
+## Honours and Awards
+{% for a in site.data.awards.awards %}
+- {{ a.text }}
+{%- for i in a.items %}
+  - {{ i }}
+{%- endfor %}
+{%- for d in a.details %}
+  - {{ d }}
+{%- endfor %}
+{%- endfor %}
 
 ## Certifications
-
-- Microsoft Certified: Azure AI Fundamentals (AI-900)
-- Introduction to Self-Driving Cars, University of Toronto (Coursera)
-- Computational Thinking for Problem Solving, University of Pennsylvania (Coursera)
+{% for c in site.data.awards.certificates %}
+- {{ c.text }}
+{%- for d in c.details %}
+  - {{ d }}
+{%- endfor %}
+{%- endfor %}

@@ -27,5 +27,4 @@ minima:
 
 exclude:
   - README.md
-  - resume.md
   - "Minh-Long PHAM - CV.pdf"

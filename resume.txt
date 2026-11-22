@@ -1,0 +1,62 @@
+---
+# Jekyll fills this template from _data/ and writes _site/resume.md; _resume/build.sh turns it into the PDF.
+# Items appear here when their highlight list contains "resume".
+layout: null
+permalink: /resume.md
+---
+---
+name: Minh-Long Pham
+email: longpml3421@gmail.com
+linkedin: longpml
+website: longpml.github.io
+github: LongPML
+---
+
+## Research Interest
+
+Minh-Long's research focuses on robot learning for real-world robots. He builds on a background in mathematics, Machine Learning, Computer Vision, and Reinforcement Learning, now applied to robotics.
+
+## Education
+{% assign edu = site.data.education | where_exp: "e", "e.highlight contains 'resume'" %}
+{%- for e in edu %}
+### {{ e.degree }} [{{ e.school }}]{.center} [{{ e.dates }}]{.right}
+{% for b in e.bullets %}
+- {{ b }}
+{%- endfor %}
+{% endfor %}
+## Publications and Preprints
+{% assign pubs = site.data.publications | where_exp: "p", "p.highlight contains 'resume'" %}
+{%- for p in pubs %}
+1. {{ p.authors }}, [{{ p.title }}]({{ p.url }}), *{{ p.venue }}*, {{ p.year }}{% if p.status %} ({{ p.status }}){% endif %}.
+{%- endfor %}
+
+## Experience
+{% for org in site.data.experience %}
+{%- assign shown = org.projects | where_exp: "p", "p.highlight contains 'resume'" %}
+{%- if shown.size > 0 %}
+### {{ org.role }} [{{ org.org }}]{.center} [{{ org.dates }}]{.right}
+{% if org.advisor %}
+Advisor: {{ org.advisor }}
+{% endif %}
+{%- for p in shown %}
+#### {{ p.title }}{% if p.dates %} [{{ p.dates }}]{.right}{% endif %}
+{% for b in p.bullets %}
+- {{ b }}
+{%- endfor %}
+{% endfor %}
+{%- endif %}
+{%- endfor %}
+## Awards
+{% assign awards = site.data.awards.awards | where_exp: "a", "a.highlight contains 'resume'" %}
+{%- for a in awards %}
+- {{ a.text }}
+{%- for i in a.items %}
+    - {{ i }}
+{%- endfor %}
+{%- endfor %}
+
+## Certificates
+{% assign certs = site.data.awards.certificates | where_exp: "c", "c.highlight contains 'resume'" %}
+{%- for c in certs %}
+- {{ c.text }}
+{%- endfor %}

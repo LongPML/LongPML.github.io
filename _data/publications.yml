@@ -1,0 +1,16 @@
+# highlight: [home, resume] picks where an item appears; the Publications page shows all.
+# details: Publications page only.
+
+- authors: "Yi Loo, Siddhant Shrivastava, **Minh-Long Pham**, Malika Meghjani"
+  title: "Co²Gen: Collaboratively Generating Task Plans for Decentralized Multi-Robot and Human Collaboration"
+  url: https://arxiv.org/abs/2610.30671
+  venue: "arXiv preprint arXiv:2610.30671"
+  year: 2026
+  status: Under review
+  highlight: [home, resume]
+  details:
+    - "Generates multi-robot collaborative demonstration data for decentralized VLA training without multi-robot teleoperation."
+    - "A VLM writes the collaborative plan as a Python function through a collaborative MCTS, checking sub-task preconditions before each skill."
+    - "Evaluated on bi-manual SO-101 arms with storage and stacking tasks, using SmolVLA policies."
+    - "Co²Gen data with single-arm demonstrations matches VLAs trained on two-arm teleoperated data, and transfers to zero-shot human-robot collaboration."
+    - "My role: hardware for the SO-101 arms, task setup, data collection, and VLA training."
