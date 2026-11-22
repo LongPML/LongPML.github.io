@@ -34,7 +34,7 @@
     - title: "JAL-AI Report: Offline Small Language Model for Japan Airlines Cabin Crew"
       highlight: [home, resume]
       bullets:
-        - "Fine-tuned Phi-4-mini on JAL's past reports and deployed it offline on iPad as a quantized GGUF model with one-tap Japanese-to-English translation, cutting report time to one-third."
+        - "Fine-tuned Phi-4-mini on JAL's past reports and deployed it offline on iPad as a quantized GGUF model, cutting report time to one-third."
         - "Featured in the Microsoft AI Tour Tokyo keynote, 2025-03-27 ([YouTube](https://www.youtube.com/live/A1s7dNCWrQk?si=laUdAPgXPeq_58qe&t=1891), [Microsoft Source Asia](https://news.microsoft.com/source/asia/features/japan-airlines-new-ai-app-will-make-it-easier-for-cabin-attendants-to-report-inflight-events-with-microsofts-phi-4-small-language-model/), [Fujitsu](https://global.fujitsu/en-global/customer-stories/cs-jal-en-20251021))."
       details:
         - "Crew enter keywords and checkboxes; the app drafts the report and asks follow-up questions to avoid omissions."
