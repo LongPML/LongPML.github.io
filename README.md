@@ -28,7 +28,7 @@ Fields:
   - `## Section`, `### Role or degree` (bold), `#### Project` (italic), `1.` items print as `[1]` under Publications.
   - `[text]{.center}` and `[text]{.right}` place text in the middle and at the right margin.
   - Layout: `_resume/style.tex`, `_resume/layout.lua`.
-  - The PDF is public: no phone numbers or references.
+  - The PDF is public: no phone numbers.
 - Site config, skin, and menu order: `_config.yml` (`minima.skin`, `minima.nav_pages`)
 - Use `\|` instead of `|` in text lines of web pages, otherwise kramdown renders them as a table.
 

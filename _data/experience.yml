@@ -19,9 +19,9 @@
       highlight: [resume]
       bullets:
         - "Managed the hardware for the bi-manual SO-101 arms, set up the storage and stacking tasks, collected collaborative demonstrations, and fine-tuned SmolVLA policies."
-        - "Plan-generated data, combined with single-arm demonstrations, matched or beat two-arm teleoperated data, removing the need to teleoperate both arms at once [1]."
+        - "Plan-generated data, combined with single-arm demonstrations, matched or beat two-arm teleoperated data, removing the need to teleoperate both arms at once (submitted to ICRA 2027)."
       details:
-        - "Paper: [arXiv:2610.30671](https://arxiv.org/abs/2610.30671), under review."
+        - "Paper: [arXiv:2610.30671](https://arxiv.org/abs/2610.30671), submitted to ICRA 2027."
         - "Setup: two SO-101 arms, an overhead ZED 2 camera, and a wrist camera per arm, on storage and stacking tasks."
         - "Collected 50 demonstrations per task plus DAgger corrections, and trained one SmolVLA policy per arm for 20,000 steps."
 
@@ -60,7 +60,7 @@
       highlight: [home, resume]
       bullets:
         - "Built an ensemble of LightGBM, XGBoost, and CatBoost with a custom loss function for the client's proprietary metric, improving the existing models by 8%."
-        - "Deployed on Azure Machine Learning with a pipeline that retrains on new data; used in production in the Japanese market."
+        - "Deployed on Azure Machine Learning with a pipeline that retrains on new data; used in production in Japan."
 
 - role: AI Engineer Intern
   org: Vingroup Big Data Institute (VinBigData)
