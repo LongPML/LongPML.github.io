@@ -8,9 +8,3 @@
   year: 2026
   status: Under review
   highlight: [home, resume]
-  details:
-    - "Generates multi-robot collaborative demonstration data for decentralized VLA training without multi-robot teleoperation."
-    - "A VLM writes the collaborative plan as a Python function through a collaborative MCTS, checking sub-task preconditions before each skill."
-    - "Evaluated on bi-manual SO-101 arms with storage and stacking tasks, using SmolVLA policies."
-    - "Co²Gen data with single-arm demonstrations matches VLAs trained on two-arm teleoperated data, and transfers to zero-shot human-robot collaboration."
-    - "My role: hardware for the SO-101 arms, task setup, data collection, and VLA training."

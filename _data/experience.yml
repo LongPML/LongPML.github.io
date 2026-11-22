@@ -7,7 +7,7 @@
   dates: 01/2026 - Present
   advisor: Prof. Malika Meghjani
   projects:
-    - title: 2026 Maritime RobotX Challenge, Computer Vision Lead
+    - title: 2026 Maritime RobotX Challenge - Computer Vision Lead
       dates: 02/2026 - 11/2026
       highlight: [home, resume]
       bullets:
@@ -34,7 +34,7 @@
   org: Data Impact - Headwaters (Japan)
   location: Ha Noi, Vietnam
   dates: 06/2023 - 01/2026
-  advisor: Mr. Nguyen Quang Huy
+  advisor: Mr. Nguyen Quang Huy - CTO of Data Impact
   projects:
     - title: "JAL-AI Report: Offline Small Language Model for Japan Airlines Cabin Crew"
       dates: 01/2025 - 03/2025
@@ -51,7 +51,6 @@
     - title: Conversational AI Digital Human
       dates: 09/2024 - 12/2024
       highlight: [home, resume]
-      image: img/robot_week_2024.png
       bullets:
         - "Built a fully local, real-time pipeline of STT, SLM, and TTS with NVIDIA Omniverse Audio2Face lip-sync."
         - "Showcased at [Japan Robot Week](https://www.headwaters.co.jp/news/digital_human_japan_robot_week_2024.html), [Food Tech Japan](https://www.headwaters.co.jp/news/ai_digital_human_food_tech_japan.html), and [SEMICON Japan](https://www.headwaters.co.jp/news/semicon_japan_2024_ai_digitalhuman.html) 2024."
@@ -78,7 +77,7 @@
   org: Vingroup Big Data Institute (VinBigData)
   location: Ha Noi, Vietnam
   dates: 07/2022 - 05/2023
-  advisor: Ms. Thu-Huyen Tran
+  advisor: Ms. Thu-Huyen Tran - Director of Vingroup AI Engineer Training Program, VinBigData
   projects:
     - title: Driving Behavior Scoring
       highlight: [resume]
@@ -99,7 +98,7 @@
   org: CS-UIT Artificial Intelligence Club, VNU-HCMC
   location: Ho Chi Minh City, Vietnam
   dates: 10/2020 - 04/2022
-  advisor: Mr. To Nhat Huy
+  advisor: Mr. To Nhat Huy - System SW Engineer, NVIDIA
   projects:
     - title: Automated Stock Trading on the Ho Chi Minh Stock Exchange
       highlight: [home, resume]
@@ -116,8 +115,15 @@
       bullets:
         - "Assisted in building the robot; surveyed and reviewed Simultaneous Localization and Mapping (SLAM)."
 
-    - title: "UIT AI Challenge: Logo Detection (competition)"
-      dates: "2020"
+    - title: "UIT Car Racing"
+      highlight: [home, resume]
+      bullets:
+        - "Trained PiNet for lane detection and YOLOv4 for traffic sign detection on a self-driving car in the organizers' simulator."
+        - "Built a simple decision tree controller to keep the car in the right lane."
+      details:
+        - "Tuned the system to balance accuracy, compute, and run-time."
+
+    - title: "UIT AI Challenge: Logo Detection"
       highlight: [home, resume]
       bullets:
         - "Trained YOLOv4 (Darknet) to locate logos and classify them into 7 groups of university faculties and associations."
@@ -125,15 +131,6 @@
       details:
         - "Tuned the model to balance accuracy, compute, and run-time."
         - "Built a real-time smartphone camera app after the competition."
-
-    - title: "UIT Car Racing (competition)"
-      highlight: [home, resume]
-      dates: "2022"
-      bullets:
-        - "Trained PiNet for lane detection and YOLOv4 for traffic sign detection on a self-driving car in the organizers' simulator."
-        - "Built a simple decision tree controller to keep the car in the right lane."
-      details:
-        - "Tuned the system to balance accuracy, compute, and run-time."
 
     - title: "Neural Architecture Search on NAS-Bench-201 (course project)"
       highlight: []

@@ -51,6 +51,9 @@ Strong background in mathematics, problem-solving, and computational thinking.
 ### Selected Awards
 {% for a in awards %}
 - {{ a.text }}
+{%- for i in a.items %}
+  - {{ i }}
+{%- endfor %}
 {%- endfor %}
 {% endif %}
 {%- assign certs = site.data.awards.certificates | where_exp: "c", "c.highlight contains 'home'" %}
