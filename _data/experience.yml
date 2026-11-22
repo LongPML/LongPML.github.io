@@ -8,7 +8,6 @@
   advisor: Prof. Malika Meghjani
   projects:
     - title: 2026 Maritime RobotX Challenge - Computer Vision Lead
-      dates: 02/2026 - 11/2026
       highlight: [home, resume]
       bullets:
         - "Built real-time YOLO detection and light-colour classification on Jetson Orin NX for a surface, underwater, and aerial vehicle team."
@@ -37,7 +36,6 @@
   advisor: Mr. Nguyen Quang Huy - CTO of Data Impact
   projects:
     - title: "JAL-AI Report: Offline Small Language Model for Japan Airlines Cabin Crew"
-      dates: 01/2025 - 03/2025
       highlight: [home, resume]
       bullets:
         - "Fine-tuned Phi-4-mini on JAL's past reports and deployed it offline on iPad as a quantized GGUF model with one-tap Japanese-to-English translation, cutting report time to one-third."
@@ -49,7 +47,6 @@
         - "Phase 2 (2025) extends the app to all cabin crew and more report types."
 
     - title: Conversational AI Digital Human
-      dates: 09/2024 - 12/2024
       highlight: [home, resume]
       bullets:
         - "Built a fully local, real-time pipeline of STT, SLM, and TTS with NVIDIA Omniverse Audio2Face lip-sync."
