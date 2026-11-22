@@ -5,8 +5,14 @@ permalink: /
 
 <!-- Education and highlights come from _data/. Items appear here when their highlight list contains "home". -->
 
-AI Engineer with experience in Machine Learning, Computer Vision, and Reinforcement Learning.
-Strong background in mathematics, problem-solving, and computational thinking.
+<img src="img/profile.jpg" alt="Minh-Long Pham" width="160" style="float: right; margin: 0 0 1em 1.5em; border-radius: 8px;">
+
+## About Me
+
+I am a PhD student in Computer Science and Design at the Singapore University of Technology and Design (SUTD), supported by the SUTD PhD Fellowship.
+I work in the [MARVL Lab](https://www.malikameghjani.com/copy-of-home) under [Prof. Malika Meghjani](https://www.sutd.edu.sg/profile/malika-meghjani/).
+
+My research focuses on robot learning for real-world robots, building on a background in mathematics, Machine Learning, Computer Vision, and Reinforcement Learning.
 
 [Email](mailto:longpml3421@gmail.com) \| [LinkedIn](https://linkedin.com/in/longpml/) \| [GitHub](https://github.com/LongPML) \| [Résumé (PDF)](Minh-Long_Pham_Resume.pdf)
 
@@ -23,10 +29,18 @@ Strong background in mathematics, problem-solving, and computational thinking.
 {%- endfor %}
 {% endfor %}
 ## Highlights
+{% assign pubs = site.data.publications | where_exp: "p", "p.highlight contains 'home'" %}
+{%- if pubs.size > 0 %}
+### Selected Publications
+{% for p in pubs %}
+1. {{ p.authors }}. "[{{ p.title }}]({{ p.url }})." *{{ p.venue }}*, {{ p.year }}.
+{%- endfor %}
+{% endif %}
+### Selected Experience
 {% for org in site.data.experience %}
 {%- for p in org.projects %}
 {%- if p.highlight contains 'home' %}
-### {{ p.title }}
+#### {{ p.title }}
 {{ org.org }}{% if p.dates %} \| {{ p.dates }}{% endif %}
 {% for b in p.bullets %}
 - {{ b }}
@@ -37,14 +51,6 @@ Strong background in mathematics, problem-solving, and computational thinking.
 {%- endif %}
 {%- endfor %}
 {%- endfor %}
-{%- assign pubs = site.data.publications | where_exp: "p", "p.highlight contains 'home'" %}
-{%- if pubs.size > 0 %}
-
-### Selected Publications
-{% for p in pubs %}
-1. {{ p.authors }}. "[{{ p.title }}]({{ p.url }})." *{{ p.venue }}*, {{ p.year }}.
-{%- endfor %}
-{% endif %}
 {%- assign awards = site.data.awards.awards | where_exp: "a", "a.highlight contains 'home'" %}
 {%- if awards.size > 0 %}
 

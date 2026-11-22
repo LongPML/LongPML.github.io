@@ -85,7 +85,7 @@
         - "The scores give drivers transparency and feedback, and can support warranty policies and insurance packages."
 
     - title: AI Engineer Training Program
-      highlight: [home, resume]
+      highlight: [resume]
       bullets:
         - "Undertook an intensive AI training program covering mathematics, machine learning, deep learning, computer vision, natural language processing, and AI ethics."
         - "Researched and deployed eKYC for facial attendance tracking, achieving a 0.98 F1-score in real-time (0.1s/person) after tuning with ROC."
@@ -98,7 +98,7 @@
   advisor: Mr. To Nhat Huy - System SW Engineer, NVIDIA
   projects:
     - title: Automated Stock Trading on the Ho Chi Minh Stock Exchange
-      highlight: [home, resume]
+      highlight: [resume]
       bullets:
         - "Trained and deployed an Ensemble Strategy (A2C, DDPG, PPO), achieving 70.3% cumulative return and 19.4% annual return over a three-year testing period (2019-2022)."
 
@@ -113,7 +113,7 @@
         - "Assisted in building the robot; surveyed and reviewed Simultaneous Localization and Mapping (SLAM)."
 
     - title: "UIT Car Racing"
-      highlight: [home, resume]
+      highlight: [resume]
       bullets:
         - "Trained PiNet for lane detection and YOLOv4 for traffic sign detection on a self-driving car in the organizers' simulator."
         - "Built a simple decision tree controller to keep the car in the right lane."
@@ -121,7 +121,7 @@
         - "Tuned the system to balance accuracy, compute, and run-time."
 
     - title: "UIT AI Challenge: Logo Detection"
-      highlight: [home, resume]
+      highlight: [resume]
       bullets:
         - "Trained YOLOv4 (Darknet) to locate logos and classify them into 7 groups of university faculties and associations."
         - "Honorable Mention for the highest performance on the first run."
