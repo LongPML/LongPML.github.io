@@ -16,18 +16,14 @@
         - "Finals: 2026-11-08 to 2026-11-14, Promontory at Marina Bay, Singapore ([RobotX 2026](https://robotx.org/programs/2026/))."
 
     - title: "Co²Gen: Multi-Robot Collaboration with Vision-Language-Action Models"
-      highlight: [home, resume]
+      highlight: [resume]
       bullets:
         - "Managed the hardware for the bi-manual SO-101 arms, set up the storage and stacking tasks, collected collaborative demonstrations, and fine-tuned SmolVLA policies."
         - "Plan-generated data, combined with single-arm demonstrations, matched or beat two-arm teleoperated data, removing the need to teleoperate both arms at once [1]."
       details:
         - "Paper: [arXiv:2610.30671](https://arxiv.org/abs/2610.30671), under review."
-        - "Setup: overhead ZED 2 stereo camera and one wrist camera per arm."
-        - "Tasks: storage (open a cabinet, place a cube, close it) and stacking (stack two cubes in the shared area)."
-        - "Data: 50 episodes per task with a human verifier for success, extra DAgger correction data, and single-arm and bi-manual teleoperated data for the baselines."
-        - "Training: SmolVLA (`smolvla_base`), 20,000 steps, one policy per arm (decentralized)."
-        - "Method: a VLM writes the collaborative plan as a Python function through a collaborative MCTS (actor and critic agents), checks sub-task preconditions with a VLM, and calls single-arm skills (YOLOv8 and blob detection, IK planner)."
-        - "Result: matched two-arm teleoperated data on storage and beat it on stacking. Also evaluated zero-shot human-robot collaboration."
+        - "Setup: two SO-101 arms, an overhead ZED 2 camera, and a wrist camera per arm, on storage and stacking tasks."
+        - "Collected 50 demonstrations per task plus DAgger corrections, and trained one SmolVLA policy per arm for 20,000 steps."
 
 - role: AI Engineer
   org: Data Impact (Headwaters - Japan)
@@ -41,10 +37,9 @@
         - "Fine-tuned Phi-4-mini on JAL's past reports and deployed it offline on iPad as a quantized GGUF model with one-tap Japanese-to-English translation, cutting report time to one-third."
         - "Featured in the Microsoft AI Tour Tokyo keynote, 2025-03-27 ([YouTube](https://www.youtube.com/live/A1s7dNCWrQk?si=laUdAPgXPeq_58qe&t=1891), [Microsoft Source Asia](https://news.microsoft.com/source/asia/features/japan-airlines-new-ai-app-will-make-it-easier-for-cabin-attendants-to-report-inflight-events-with-microsofts-phi-4-small-language-model/), [Fujitsu](https://global.fujitsu/en-global/customer-stories/cs-jal-en-20251021))."
       details:
-        - "Cabin crew enter keywords and checkboxes; the app drafts the handover report and asks follow-up questions to avoid omissions."
-        - "Field trial: 2025-01-27 to 2025-03-26, JAL Haneda Technical Center. Report time went from 60 to 20 minutes, or 30 to 10 minutes for simpler cases."
-        - "Joint project of Headwaters and Fujitsu for JAL, using Microsoft Phi-4 ([Headwaters press release (JA)](https://www.headwaters.co.jp/news/headwaters_fujitsu_generative_ai_jal_cabin_crew_workflows.html))."
-        - "Phase 2 (2025) extends the app to all cabin crew and more report types."
+        - "Crew enter keywords and checkboxes; the app drafts the report and asks follow-up questions to avoid omissions."
+        - "Field trial at JAL Haneda, 2025-01 to 2025-03: report time fell from 60 to 20 minutes."
+        - "Joint project of Headwaters and Fujitsu ([press release (JA)](https://www.headwaters.co.jp/news/headwaters_fujitsu_generative_ai_jal_cabin_crew_workflows.html))."
 
     - title: Conversational AI Digital Human
       highlight: [home, resume]
@@ -52,10 +47,7 @@
         - "Built a fully local, real-time pipeline of STT, SLM, and TTS with NVIDIA Omniverse Audio2Face lip-sync."
         - "Showcased at [Japan Robot Week](https://www.headwaters.co.jp/news/digital_human_japan_robot_week_2024.html), [Food Tech Japan](https://www.headwaters.co.jp/news/ai_digital_human_food_tech_japan.html), and [SEMICON Japan](https://www.headwaters.co.jp/news/semicon_japan_2024_ai_digitalhuman.html) 2024."
       details:
-        - "Runs on a Siemens SIMATIC IPC RW-545A industrial PC (Core i9-12900E, NVIDIA RTX A6000)."
-        - "Japan Robot Week 2024: 2024-09-18 to 2024-09-20, Tokyo Big Sight, Ryoyo Electro booth J-53."
-        - "Food Tech Japan 2024: 2024-11-20 to 2024-11-22, Makuhari Messe, Siemens booth."
-        - "SEMICON Japan 2024: 2024-12-11 to 2024-12-13, Tokyo Big Sight, Siemens booth 6106."
+        - "Runs fully offline on a Siemens industrial PC with an NVIDIA RTX A6000."
         - "Media: [Robotstart, 2024-09-11](https://robotstart.info/article/2024/09/11/359893.html)."
 
     - title: Office Thermal Comfort Project
